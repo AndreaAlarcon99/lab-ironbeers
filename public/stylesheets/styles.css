@@ -5,3 +5,160 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+/* Estilos del LAYOUT */
+body{
+    margin: 0;
+    background-color: #e9e9e9;
+}
+
+
+#navegacion {
+    background-color: #2081c3;
+    width: 100vw;
+    height: 50px;
+    position: fixed;
+        width: 100vw;
+        top: 0;
+}
+
+
+#navegacion ul {
+    list-style-type: none;
+    display: flex;
+    align-content: flex-start;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#navegacion li {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 10%;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+footer{
+    background-color:#0a2c42;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    padding-left: 20px;
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+}
+
+/* Estilos del INDEX */
+
+#indexDiv{
+    margin: 125px;
+    text-align: center;
+}
+
+#indexDiv img{
+    width: 400px;
+    height: 400px;
+}
+
+#indexDiv a {
+    display: block;
+    
+    background-color: #2081c3;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+  margin: auto;
+ line-height: 3rem;
+ margin-top: 20px;
+ 
+ font-weight: bold;
+ font-size: 20px;
+}
+
+/* Estilos del BEERS  */
+
+#allBeers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+
+#beer{ 
+    margin: 125px 25px;
+    display: flex;
+    width: 45vw;
+}
+
+#beersImg{  
+    width: fit-content;
+}
+
+#beersImg img {
+    width: 150px;
+    height: 500px;
+    padding-right: 20px;
+}
+
+#beersInfo{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    align-items: center;  
+}
+
+#beersInfo h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+#beersInfo p{
+    text-align: justify;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos del RANDOM BEER  */
+#randomBeer {
+    margin: 80px;
+    display: flex;
+    
+}
+
+#randomImg {
+    width: fit-content;
+    margin-right: 200px;
+}
+
+#randomImg img {
+    width: 200px;
+    height: 650px;
+    padding-right: 20px;
+}
+
+#randomInfo {
+    display: flex;
+    flex-direction: column;
+    
+    float: right;
+    align-items: center;
+   
+}
+
+#randomInfo h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#randomInfo p {
+    text-align: justify;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 700px;
+}

@@ -1,0 +1,16 @@
+
+{{#each randomBeer}}
+<div id="randomBeer">
+<div id="randomImg">
+
+    <img src={{this.image_url}} alt="Beer image">
+</div>
+<div id="randomInfo">
+
+    <h2> {{this.name}}</h2>
+    <p>{{this.description}}</p>
+    <p>{{tagline}}</p>
+</div>
+</div>
+{{/each}}
+
